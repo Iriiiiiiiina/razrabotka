@@ -19,3 +19,5 @@ export class LibraryBook implements Borrowable {
     }
 }
 const book1 = new LibraryBook({title: "Война и мир", author:"Л. Н. Толстой", year: 1869});
+
+book1.borrow("Диана Хазикова");
